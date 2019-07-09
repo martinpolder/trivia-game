@@ -1,5 +1,16 @@
 // start with an opening screen with a click event to start the Game
-function(click)
+$("#start").click(runQuiz);
+
+
+// showing the quiz question in the interval
+var showQ;
+
+var countdown = 30;
+
+// counters for correct, incorrect and incomplete answers
+var correct = 0;
+var incorrect = 0;
+var unAns = 0;
 
 // have an array with all the questions and answers run through a for loop
 
@@ -32,9 +43,15 @@ var qBank = [
 
 ]
 
+// run a for loop for the length of the array to choose a question
+
+// insert that selected question into the question div and make it appear for 30 seconds before moving onto the next question
+
+
+
+
 // each answer is a clickable button that triggers the next screen
 
-// make the question appear for 30 seconds at a time
 
 // if user answer is correct, inform them for 5sec before auto loading the next question, store as correct answer
 
