@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,62 @@
     <!-- reset -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- custom -->
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+
 <body>
-    
-    
-    
-    
-    
-    
+
+    <!-- Header, will display throughout-->
+    <h2> trivia quiz game </h2>
+
+
+    <!-- start page -->
+    <div class="startpage">
+        <div class="container">
+            <button>Start Quiz!</button>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Quiz page, will start hidden, show upon click of start button-->
+    <div class="quizpage">
+        <div class="container">
+            <div class="question">
+                <p> Question ?</p>
+            </div>
+            <div class="answerbank">
+                <div class="answers" id="a">A</div>
+                <div class="answers" id="b">B</div>
+                <div class="answers" id="c">C</div>
+                <div class="answers" id="d">D</div>
+            <div class="countdown">15</div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- score page, hidden, displays at end of quiz -->
+    <div class="scorepage">
+        <div class="container">
+        </div>
+    </div>
+
+
+
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- custom js -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
